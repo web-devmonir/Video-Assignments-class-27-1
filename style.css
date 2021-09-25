@@ -1,0 +1,305 @@
+/*========== Default Css ==========*/
+*{
+    margin:0;
+    padding:0;
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+.container{
+    width: 1270px;
+    margin:auto;
+}
+img{
+    max-width: 100%;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+
+/*========== Headr section ==========*/
+.header_section{
+    background:#3498db;
+}
+.header_left{
+    float: left;
+    width: 30%;
+}
+.header_logo{}
+.header_logo img {
+    width: 160px;
+    height: auto;
+}
+
+/* header menu */
+.header_menu{
+    float: right;
+    width: 70%;
+}
+.header_menu ul{
+    text-align: right;
+}
+.header_menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header_menu ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 30px;
+    font-size: 22px;
+    border-right: 1px solid #ddd;
+    line-height: 58px;
+    transition: .4s;
+}
+.header_menu ul li:first-child a{
+    border-left: 1px solid #ddd;
+}
+.header_menu ul li a:hover{
+    background:#2980b9;
+}
+
+
+/*========== Banner section ==========*/
+.banner_section{
+    background:url(https://smartslider3.com/wp-content/uploads/2019/01/photo_slideshow.jpg) no-repeat center center ;
+    background-size: cover;
+    padding: 220px 0px;
+    background-attachment: fixed;
+}
+.banner_text{}
+.banner_text h3 {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 29px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.banner_text h1 {
+    background: rgba(52, 152, 219.3);
+    max-width: 497px;
+    font-size: 42px;
+    color: #fff;
+    margin: 30px auto;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+
+/*========== About section ==========*/
+.about_section{
+    padding:100px 0px;
+    background: #9288881c;
+}
+.about_text{}
+.about_text h2{
+    font-size: 40px;
+}
+.about_text p{
+    width: 700px;
+    margin:auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/*========== Service section ==========*/
+.sevice_section{
+    padding: 100px 0px;
+    background: #fff;
+}
+.service_items{}
+.service_item {
+    width: 31.33%;
+    float: left;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 20px 10px;
+}
+.service_item span {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background: #3498DB;
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+    border-radius: 20px 0px 20px 0px;
+}
+.service_item h2 {
+    font-size: 33px;
+    padding: 15px 0px;
+}
+.service_item p {
+
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+    line-height: 31px;
+}
+
+
+/*========== Blog section ==========*/
+.blog_section{
+    padding: 50px 0px;
+}
+.blog_content_left{
+    width: 70%;
+    float: left;
+}
+.blog_left_item {
+    margin-bottom: 32px;
+    border-bottom: 3px solid #ddd;
+}
+.blog_left_item img {
+    width: 200px;
+    float: left;
+    height: auto;
+    margin-right: 25px;
+}
+.blog_left_item p {
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 21px;
+    text-align: justify;
+}
+
+/* blog right content */
+.blog_content_right{
+    width: 25%;
+    float: right;
+}
+.blog_right_item{}
+.blog_right_item h2 {
+    font-size: 40px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 32px;
+    padding-bottom: 10px;
+    color: red;
+}
+.blog_right_item ul{}
+.blog_right_item ul li {
+    list-style-type: none;
+    font-size: 19px;
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    padding: 18px 15px;
+    border-radius: 5px;
+}
+
+
+/*========== Contact section ==========*/
+.contact_section{
+    padding: 100px 0px;
+    background: #dddddd40;
+}
+.contact_left{
+    float: left;
+    width: 60%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+/* content right */
+.contact_right{
+    float: right;
+    width: 40%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.contact_formm{
+    margin-top: 20px;
+}
+.contact_formm h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.contact_formm form input[type="text"] {
+    width: 100%;
+    padding: 9px 8px;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+.contact_formm form input[type=email]{
+    width: 100%;
+    padding: 9px 8px;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+.contact_formm form textarea{
+    width: 100%;
+    padding: 9px 8px;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+.contact_formm form input[type=submit]{
+    width: 100%;
+    padding: 9px 8px;
+    font-size: 18px;
+}
+.contact_formm form input[type=submit]:hover{
+    background:orange;
+    color:#fff;
+    transition: .4s;
+    cursor: pointer;
+    border:2px solid transparent;
+    border-radius: 5px;
+}
+
+
+/*========== Footer section ==========*/
+.footer_section{
+    background: #2c3e50;
+    color:#fff;
+    padding:15px 0px;
+}
+.footer_left{
+    width: 50%;
+    float: left;
+}
+.footer_left p {
+    font-size: 23px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/* footer right */
+.footer_right{
+    width: 50%;
+    float: right;
+}
+.social_menu{}
+.social_menu ul {
+    text-align: right;
+    margin-right: 10px;
+}
+.social_menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 16px;
+}
+.social_menu ul li a {
+    color: #fff;
+    display: inline-block;
+    font-size: 36px;
+}
+.social_menu ul li a:hover{
+    color:red;
+    transform: scale(1.3);
+    transition: .4s;
+}
+.social_menu ul li a span{}
